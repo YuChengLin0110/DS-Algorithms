@@ -56,6 +56,17 @@ MaxSlidingWindow：使用 Deque 雙端特性，實作滑動視窗最大值
 
 ReverseQueue：使用 Stack 反轉 Queue
 
+### Sorting 排序演算法
+
+Bubble Sort：冒泡排序
+
+Insertion Sort：插入排序
+
+Selection Sort：選擇排序
+
+Merge Sort：合併排序
+
+Quick Sort：快速排序
 
 ## 測試方式：
 
