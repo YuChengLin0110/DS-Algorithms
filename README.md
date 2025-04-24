@@ -68,6 +68,16 @@ Merge Sort：合併排序
 
 Quick Sort：快速排序
 
+### Dynamic Programming 動態規劃：
+
+Fibonacci：斐波那契數列，包含遞迴與動態規劃實作
+
+Climbing Stairs：爬樓梯問題，包含遞迴與動態規劃實作
+
+Maximum Subarray：最大子陣列和
+
+Knapsack Problem：0/1 背包問題
+
 ## 測試方式：
 
 目前所有測試皆使用 main 方法，後續可視情況改為單元測試 JUnit
