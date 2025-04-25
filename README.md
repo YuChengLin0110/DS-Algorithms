@@ -4,41 +4,43 @@
 ## 目前實作：
 ### LinkedList 雙向鏈結：
 
-插入節點（insertAt）
+insertAt：在指定位置插入節點
 
-刪除節點（delete, deleteAt）
+delete：刪除指定節點
 
-反轉    （reverse）
+deleteAt：刪除指定位置的節點
 
-加入節點（append）
+reverse：反轉
+
+append：在尾部加入節點
 
 ### Graph 泛型圖：
 
-加入節點與邊
+addVertex / addEdge：加入節點與邊
 
-深度優先搜尋（DFS）
+DFS（深度優先搜尋）：執行圖的深度優先搜尋
 
-廣度優先搜尋（BFS）
+BFS（廣度優先搜尋）：執行圖的廣度優先搜尋
 
-拓樸排序法   (Topological Sort)
+Topological Sort（拓樸排序法）：對有向無環圖進行拓樸排序
 
 ### Tree 樹：
 
-最大深度（maxDepth）
+maxDepth：找出樹的最大深度
 
-最小深度（minDepth）
+minDepth：找出樹的最小深度
 
-查找節點深度（findDepth）
+findDepth：查找指定節點的深度
 
-比較兩棵樹是否相同（isSameTree）
+isSameTree：比較兩棵樹是否完全相同
 
-判斷是否對稱（isSymmetric）
+isSymmetric：判斷樹是否對稱
 
-判斷是否存在目標和路徑（hasPathSum）
+hasPathSum：判斷是否存在從根到葉的路徑，其節點值總和為指定的目標和
 
-找出所有符合目標和的路徑（pathSum）
+pathSum：找出所有從根到葉的路徑，並且這些路徑的節點值總和為指定的目標和
 
-尋找兩節點的最低共同祖先（lowestCommonAncestor）
+lowestCommonAncestor：尋找兩個節點的最低共同祖先
 
 ### Stack 與 Queue：
 
@@ -67,6 +69,16 @@ Selection Sort：選擇排序
 Merge Sort：合併排序
 
 Quick Sort：快速排序
+
+### Trie
+
+insert：插入一個單字到 Trie
+
+contains：檢查 Trie 中是否包含某個單字
+
+startsWith：檢查 Trie 中是否有任何單字以指定的前綴開頭
+
+delete：刪除 Trie 中的某個單字
 
 ### Dynamic Programming 動態規劃：
 
