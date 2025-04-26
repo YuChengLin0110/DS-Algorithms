@@ -58,7 +58,29 @@ MaxSlidingWindow：使用 Deque 雙端特性，實作滑動視窗最大值
 
 ReverseQueue：使用 Stack 反轉 Queue
 
-### Sorting 排序演算法
+### Trie：
+
+insert：插入一個單字到 Trie
+
+contains：檢查 Trie 中是否包含某個單字
+
+startsWith：檢查 Trie 中是否有任何單字以指定的前綴開頭
+
+delete：刪除 Trie 中的某個單字
+
+### Heap：
+
+FindKthLargest：陣列中第 K 大的元素，使用最小堆實作
+
+KClosestPointsToOrigin：平面上距離原點最近的 K 個點，使用最大堆實作
+
+MedianFinder：查找中位數，使用最大堆 + 最小堆 實作
+
+MergeKSortedLists：合併 K 個排序鏈表，使用最小堆實作
+
+TopKFrequentElements：出現頻率最高的 K 個元素，使用最小堆實作
+
+### Sorting 排序演算法：
 
 Bubble Sort：冒泡排序
 
@@ -69,16 +91,6 @@ Selection Sort：選擇排序
 Merge Sort：合併排序
 
 Quick Sort：快速排序
-
-### Trie
-
-insert：插入一個單字到 Trie
-
-contains：檢查 Trie 中是否包含某個單字
-
-startsWith：檢查 Trie 中是否有任何單字以指定的前綴開頭
-
-delete：刪除 Trie 中的某個單字
 
 ### Dynamic Programming 動態規劃：
 
