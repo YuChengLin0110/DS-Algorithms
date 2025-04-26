@@ -1,5 +1,7 @@
 package algorithms.sorting;
 
+import java.util.Arrays;
+
 import algorithms.sorting.sortUtils.SortUtils;
 
 public class QuickSort {
@@ -62,6 +64,6 @@ public class QuickSort {
         
         quickSort(arr);
         
-        SortUtils.printArray(arr);
+        System.out.println(Arrays.toString(arr));
     }
 }

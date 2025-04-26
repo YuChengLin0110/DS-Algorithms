@@ -1,6 +1,6 @@
 package algorithms.sorting;
 
-import algorithms.sorting.sortUtils.SortUtils;
+import java.util.Arrays;
 
 public class MergeSort {
 
@@ -22,8 +22,6 @@ public class MergeSort {
 
 		int mid = left + (right - left) / 2;
 
-		System.out.println("Split: [" + left + ", " + mid + "] and [" + (mid + 1) + ", " + right + "]");
-
 		// 左半邊
 		mergeSortRecursive(arr, left, mid);
 
@@ -31,12 +29,6 @@ public class MergeSort {
 		mergeSortRecursive(arr, mid + 1, right);
 
 		merge(arr, left, mid, right);
-
-		System.out.print("After merge [" + left + ", " + right + "]: ");
-		for (int i = left; i <= right; i++) {
-			System.out.print(arr[i] + " ");
-		}
-		System.out.println();
 	}
 
 	// 合併排序
@@ -76,6 +68,6 @@ public class MergeSort {
 
 		mergeSort(arr);
 
-		SortUtils.printArray(arr);
+		System.out.println(Arrays.toString(arr));
 	}
 }

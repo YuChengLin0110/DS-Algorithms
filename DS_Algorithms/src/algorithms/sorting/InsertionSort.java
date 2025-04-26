@@ -1,6 +1,6 @@
 package algorithms.sorting;
 
-import algorithms.sorting.sortUtils.SortUtils;
+import java.util.Arrays;
 
 public class InsertionSort {
 	
@@ -35,6 +35,6 @@ public class InsertionSort {
 
 		insertionSort(arr);
 
-		SortUtils.printArray(arr);
+		System.out.println(Arrays.toString(arr));
 	}
 }
