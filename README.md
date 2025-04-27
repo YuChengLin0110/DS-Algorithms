@@ -102,6 +102,10 @@ Maximum Subarray：最大子陣列和
 
 Knapsack Problem：0/1 背包問題
 
+Unique Paths：計算從左上角到右下角的不同走法數量
+
+Longest Common Subsequence：給定兩個字串，返回它們的最長公共子序列的長度
+
 ## 測試方式：
 
 目前所有測試皆使用 main 方法，後續可視情況改為單元測試 JUnit
