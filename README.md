@@ -108,6 +108,16 @@ Longest Common Subsequence：給定兩個字串，返回它們的最長公共子
 
 ### Lambda / Stream
 
+### Comparator 排序
+
+Basic：簡單陣列、升降序排序
+
+Custom：自訂排序、奇偶排序、物件屬性排序
+
+Objects：Student / Employee 類別排序
+
+Advanced：二維陣列 + Map 混合、多條件排序、頻率統計
+
 
 ## 測試方式：
 
